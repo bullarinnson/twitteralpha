@@ -1,0 +1,68 @@
+.app{
+  display: flex;
+  height: 100vh;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 10px;
+}
+:root{
+  --background-color: #14171A;
+  --text-color:white;
+  --border-color:#E1E8ED;
+  --right-side:#657786;
+  --bird: #657786;
+}
+.dark-theme{
+  --background-color: white ;
+  --text-color:#14171Aec;
+  --border-color:#E1E8ED;
+  --right-side: #E1E8ED;
+  --bird: #1DA1F2;
+}
+#root{
+  background-color: var(--background-color);
+
+}
+@media only screen  and (max-width : 1224px) {
+  h2{
+    display: none;
+  }
+  .material-ui > .MuiSvgIcon-root {
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+  }
+  .material-ui{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  .message {
+    border: none !important;
+    color: var(--text-color) !important;
+    height: 100px !important;
+    
+    }
+    button {
+      margin-left: 70px !important;
+    }
+    .widgets{
+      display: none;
+     }
+     .sidebar {
+      min-width: 0px !important;
+      margin-top: 0px;
+      padding-left: 20px;
+      padding-right: 20px;
+      color: var(--text-color);
+    }
+    .widgets{
+      min-width: 0px !important;
+      margin-top: 0px;
+      padding-left: 20px;
+      padding-right: 20px;
+      color: var(--text-color);
+      }
+  }
+  

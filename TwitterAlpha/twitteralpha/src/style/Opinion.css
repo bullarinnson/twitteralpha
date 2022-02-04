@@ -1,0 +1,44 @@
+.opinion{
+  padding-bottom:10px;
+  border-bottom: 1px solid grey;
+  padding-right: 10px;
+}
+
+.opinion > form{
+  display: flex;
+  flex-direction: column;
+}
+
+.input{
+  display: flex;
+  padding: 20px;
+  border: none;
+}
+
+.input > input {
+  flex: 1;
+  margin-left: 20px;
+  font-size: 20px;
+  border: none;
+  border-style: none;
+  box-sizing: none;
+  background-color: var(--primary-color);
+}
+.colorChange{
+  color: var(--text-color);
+  border: none;
+}
+
+.tweet{
+background-color: rgb(6, 204, 204) !important;
+border: none !important;
+color: var(--text-color) !important;
+font-weight: 900 !important;
+text-transform: inherit !important;
+width: 80px;
+height: 40px !important;
+margin-top: 20px !important;
+border-radius: 30px !important;
+margin-left: auto !important;
+}
+

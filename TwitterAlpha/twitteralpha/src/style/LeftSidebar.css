@@ -1,0 +1,45 @@
+.message {
+  background-color: #1DA1F2 !important;
+  border: none !important;
+  color: var(--text-color) !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  height: 50px !important;
+  margin-top: 20px !important;
+  margin-left: auto !important;
+  border-radius: 30px !important;
+  }
+  .sidebar {
+    min-width: 250px;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: var(--text-color);
+  }
+  .twitterIcon {
+    font-size: 60px !important;
+    color: var(--bird);
+  }
+  #icon{
+    width:30px;
+    cursor:pointer;
+  }
+  .darkMode{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  .darkMode > button {
+    font-weight: 800;
+    font-size:  20px;
+    margin-right: 10px;
+  }
+  .darkMode > .MuiSvgIcon-root {
+    padding: 20px;
+  }
+  .button:hover{
+    background-color: aqua;
+    border-radius: 30px;
+  
+  }
+  

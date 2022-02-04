@@ -1,0 +1,20 @@
+.material-ui{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.material-ui > .MuiSvgIcon-root {
+  padding: 20px;
+}
+
+.material-ui > h2 {
+  font-weight: 800;
+  font-size:  20px;
+  margin-right: 20px;
+}
+
+.material-ui:hover{
+  background-color: aqua;
+  border-radius: 30px;
+}

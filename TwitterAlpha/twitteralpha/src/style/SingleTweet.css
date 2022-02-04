@@ -1,0 +1,87 @@
+.post-1{
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid var(--border-color);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid var(--border-color);
+}
+
+.post_body-1{
+  flex: 1;
+  padding: 10px;
+}
+h3{
+  color:var(--text-color);
+}
+p{
+  color: var(--text-color);
+  font-size : 20px;
+  width: 60%;
+  word-wrap: break-word;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.post_body-1 > img {
+  border-radius: 20px;
+}
+.p_footer{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 50px;
+  color: var(--text-color);
+}
+.post_headerDesription-1{
+  font-size: 50px;
+}
+.post_headerText-1 > h3{
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+.post_badge{
+  font-size: 14px;
+  color: red;
+}
+.post_headerSpecial-1 {
+  font-weight: 600;
+  font-size: 12px;
+  color: grey;
+}
+.ppictur-1{
+  padding: 20px;
+}
+.arnar {
+  flex: 0.4;
+  border-right: 1px solid var(--border-color);
+  min-width: 50%;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  border: 1px solid var(--border-color);
+}
+/* felur scrollbarið í chrome safari og opera */
+
+.arnar::-webkit-scrollbar {
+  display: none;
+}
+
+.header {
+  display: flex;
+  top: 0;
+  z-index: 100;
+  border: 1px solid var(--border-color);
+  padding:15px 20px;
+  color: var(--text-color);
+}
+.header > h2 {
+  flex: 1;
+  font-size: 20px;
+  font-weight: 800;
+}
+.header > .MuiSvgIcon-root{
+  display: flex;
+  
+}

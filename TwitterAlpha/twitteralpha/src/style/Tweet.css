@@ -1,0 +1,127 @@
+.post_headerDesription-2 > p{
+  color: black;
+}
+.post-2{
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black; 
+}
+.post-3{
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.DialogContent{
+  width: 100%;
+}
+.margin{
+  margin-right: 90px;
+}
+.post_body-2{
+  flex: 1;
+  flex-direction: row-reverse;
+  padding: 10px;
+}
+h3{
+  color:var(--text-color);
+}
+p{
+  color: var(--text-color);
+  font-size : 25  px;
+  width: 100%;
+  word-wrap: break-word;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.hello2{
+  background-color:var(--background-color);
+  color: var(--text-color) !important;
+}
+.hello{
+  background-color:var(--background-color);
+  color: var(--text-color) !important;
+}
+img{
+  width:100% !important; 
+     max-width:500px !important;
+}
+.post_body-2 > img {
+  border-radius: 20px;
+}
+.post_headerDesription-2{
+  font-size: 50px;
+  color:var(--text-color);
+}
+#name{
+  color: var(--text-color) !important;
+  font-size: 20px;
+  padding-left: 100px;
+  word-wrap: break-word;
+  word-break: break-all;
+  height: 60px;
+  outline: none;
+}
+.post_headerText-2{
+  display: flex;
+  flex-direction: row;
+}
+.post_headerText-2 > h3{
+  float: left;
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+.test{
+  color:var(--text-color);
+}
+.post_badge{
+  font-size: 14px;
+  color: red;
+}
+.post_headerSpecial-2 {
+  font-weight: 600;
+  font-size: 12px;
+  color: grey;
+}
+.ppictur-2{
+  padding: 20px;
+}
+.arnar {
+  flex: 0.4;
+  border-right: 1px solid var(--border-color);
+  min-width: 50%;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  border: 1px solid var(--border-color);
+}
+/* felur scrollbarið í chrome safari og opera */
+
+.arnar::-webkit-scrollbar {
+  display: none;
+}
+#Content{
+  color: var(--text-color) !important;
+  margin-left: 90px;
+  font-size: 25px;
+}
+
+.header {
+  display: flex;
+  top: 0;
+  z-index: 100;
+  border: 1px solid var(--border-color);
+  padding:15px 20px;
+  color: var(--text-color);
+}
+.header > h2 {
+  flex: 1;
+  font-size: 20px;
+  font-weight: 800;
+}
+.header > .MuiSvgIcon-root{
+  display: flex;
+  
+}

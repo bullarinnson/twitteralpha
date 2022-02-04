@@ -1,0 +1,18 @@
+.material {
+  cursor: pointer;
+    min-width: 250px;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+   
+}
+
+.material > h3 {
+  font-weight: 800;
+  font-size:  20px;
+}
+
+.material:hover{
+  background-color: aqua;
+  border-radius: 30px;
+}

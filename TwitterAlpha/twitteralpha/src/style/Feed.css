@@ -1,0 +1,32 @@
+.commentbox {
+  flex: 0.4;
+  border-right: 1px solid var(--border-color);
+  min-width: 50%;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  border: 1px solid var(--border-color);
+}
+/* felur scrollbarið í chrome safari og opera */
+
+.commentbox::-webkit-scrollbar {
+  display: none;
+}
+
+.header {
+  display: flex;
+  top: 0;
+  z-index: 100;
+  border: 1px solid var(--border-color);
+  padding:15px 20px;
+  color: var(--text-color);
+}
+.header > h2 {
+  flex: 1;
+  font-size: 30px !important;
+  font-weight: 800;
+}
+.header > .MuiSvgIcon-root{
+  display: flex;
+  
+}
